@@ -1,0 +1,15 @@
+{
+  "name": "sql-builder-ts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:aoyagikouhei/sql-builder-ts.git",
+  "author": "aoyagikouhei <aoyagi.kouhei@gmail.com>",
+  "scripts": {
+    "build": "tsc",
+    "exec": "node ./dist/index.js"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.2.4"
+  }
+}
