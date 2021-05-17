@@ -1,3 +1,15 @@
+class SqlBuilder {
+    tables: Table[];
+
+    constructor() {
+        this.tables = []
+    }
+}
+
+interface Table {
+    name: string,
+}
+
 class Users {
     id: number;
     name: string;
